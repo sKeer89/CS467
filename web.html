@@ -1,10 +1,44 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
-
-<!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
-
-<script src="script.js"></script>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Student Marks Webpage</title>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <link rel="stylesheet" type="text/css">
+  <style>
+    body {
+      background-color: #FFE4B5;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #my_dataviz {
+      flex: 1;
+    }
+    #random-text {
+      flex: 1;
+      padding: 20px;
+      background-color: #FFF8DC;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Student Marks Webpage</h1>
+  <div id="content">
+    <div id="my_dataviz"></div>
+    <div id="random-text">
+      <p>Marks of 5 students for the academic year 2022-2023</p>
+      <p>Students above 70% are highlighted in green when hovered </p>
+      <p>Students below 70% are highlighted in red when hovered </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
