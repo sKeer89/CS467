@@ -32,3 +32,11 @@ Adds text labels for the x and y axes, providing context and orientation for the
 #### Styling and HTML Structure:
 1. Defines CSS styles for the body, content area, and additional information div.
 2. Constructs a simple HTML page structure with a title, content div containing the chart and information text, and a script reference.
+
+
+### Screenshots
+<img width="1133" alt="image" src="https://github.com/sKeer89/CS467/assets/40351944/0d5bc31a-c7dd-42ab-bf66-f8b6442c768e">
+
+<img width="1177" alt="image" src="https://github.com/sKeer89/CS467/assets/40351944/f91a6bb7-c1b1-4cca-981e-1db2abbf8de4">
+
+
